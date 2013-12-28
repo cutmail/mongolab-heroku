@@ -1,3 +1,9 @@
+production:
+  # Configure available database sessions. (required)
+  sessions:
+    # Defines the default session. (required)
+    default:
+      uri: <%= ENV['MONGOLAB_URI'] %>
 development:
   # Configure available database sessions. (required)
   sessions:
